@@ -1,4 +1,3 @@
-import { count, error } from "console";
 import api from "./api";
 
 export type EpisodeType = {
@@ -20,7 +19,7 @@ export type CourseType = {
 
 const CourseService = {
   getNewestCourses: async () => {
-    const res = await api.get("./courses/newest").catch((error) => {
+    const res = await api.get("/courses/newest").catch((error) => {
       console.log(error.response.data.message);
 
       return error.response;

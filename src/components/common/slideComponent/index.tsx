@@ -1,5 +1,5 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/splide/dist/css/splide.mim.css";
+import "@splidejs/splide/dist/css/splide.min.css";
 import { CourseType } from "../../../services/courseService";
 import SlideCard from "../slideCard";
 
