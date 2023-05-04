@@ -29,4 +29,4 @@ const courseService = {
   },
 };
 
-export default courseService
+export default courseService;
