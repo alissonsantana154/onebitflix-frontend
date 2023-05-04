@@ -21,13 +21,13 @@ const SlideComponent = function ({ course }: props) {
         >
           {course?.map((course) => (
             <SplideSlide key={course.id}>
-              <SlideCard  course={course}/>
+              <SlideCard course={course}/>
             </SplideSlide>
           ))}
         </Splide>
       </div>
     </>
-  )
+  );
 };
 
-export default SlideComponent
+export default SlideComponent;

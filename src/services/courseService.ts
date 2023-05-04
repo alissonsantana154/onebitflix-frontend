@@ -17,7 +17,7 @@ export type CourseType = {
   episodes?: EpisodeType[];
 };
 
-const CourseService = {
+const courseService = {
   getNewestCourses: async () => {
     const res = await api.get("/courses/newest").catch((error) => {
       console.log(error.response.data.message);
@@ -29,4 +29,4 @@ const CourseService = {
   },
 };
 
-export default CourseService
+export default courseService
