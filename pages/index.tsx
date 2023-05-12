@@ -6,7 +6,7 @@ import CardsSection from "../src/components/homeNoAuth/cardsSection";
 import SlideSection from "../src/components/homeNoAuth/slideSection";
 import { GetStaticProps } from "next";
 import courseServices, { CourseType } from "../src/Services/courseService";
-import { ReactNode, use, useEffect } from "react";
+import { ReactNode, useEffect } from "react";
 import Footer from "../src/components/common/footer";
 import AOS from "aos";
 import "aos/dist/aos.css"
@@ -51,6 +51,7 @@ export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
       course: res.data,
+
     },
     revalidate: 3600 * 24,
   };

@@ -1,3 +1,4 @@
+
 import styles from "./styles.module.scss";
 import { Button, Container } from "reactstrap";
 import { CourseType } from "../../../Services/courseService";
