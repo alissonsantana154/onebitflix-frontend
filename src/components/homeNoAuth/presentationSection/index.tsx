@@ -29,4 +29,4 @@ const PresentationSection = function () {
   )
 }
 
-export default PresentationSection
+export default PresentationSection;
