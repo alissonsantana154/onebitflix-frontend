@@ -69,7 +69,6 @@
   bottom: 0;
   background-color: transparent;
 }
-
 .modalLink {
 	color: white;
   margin: 5px 0px;
@@ -79,6 +78,9 @@
   &:hover {
     color: $lightRed;
   }
+}
+.Link {
+  text-decoration: none;
 }
 @media (max-width: 767px) {
   .nav {
