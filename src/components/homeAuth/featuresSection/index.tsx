@@ -12,7 +12,7 @@ const FeaturedSection = function () {
   if (!data)
     return (
       <>
-        <p>Loadin...</p>
+        <p>Loading...</p>
       </>
     );
 
