@@ -91,6 +91,8 @@
   font-weight: bold;
   font-size: 15px;
   padding: 6px 20px;
+  display: block;
+  margin: 10px auto;
   transition: 0.4s;
   &:hover {
     border-color: $darkRed;
@@ -117,8 +119,15 @@
 	padding: 14px 0px;
   &:hover {
     background-color: transparent;
-    border-color: $lightRed;
-    color: $lightGray;
+    color: $lightRed;
+  }
+  &:active {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  &:focus {
+    background-color: transparent;
+    box-shadow: none;
   }
 }
 .footer {
