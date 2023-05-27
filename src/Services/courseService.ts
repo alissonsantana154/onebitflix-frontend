@@ -60,7 +60,7 @@ const courseServices = {
     const token = sessionStorage.getItem("onebitflix-token");
   
     const res = await api
-      .delete("/favorites", {
+      .delete(`/favorites/${courseId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         }
@@ -112,7 +112,7 @@ const courseServices = {
       })
       .catch((error) => {
         return error.response;
-      });
+    });
   
     return res;
   },
